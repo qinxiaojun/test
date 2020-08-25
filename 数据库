@@ -28,7 +28,7 @@ CREATE TABLE `t_user` (
 -- ----------------------------
 -- Records of t_user
 -- ----------------------------
-INSERT INTO `t_user` VALUES ('1', 'admin', '111111', '75', '192.168.31.110', '2019-07-31 12:17:41');
+INSERT INTO `t_user` VALUES ('1', 'admin', '111111', '0', '192.168.31.110', '2019-07-31 12:17:41');
 
 -- ----------------------------
 -- Table structure for t_login_log
@@ -45,12 +45,5 @@ CREATE TABLE `t_login_log` (
 -- ----------------------------
 -- Records of t_login_log
 -- ----------------------------
-INSERT INTO `t_login_log` VALUES ('1', '1', '0:0:0:0:0:0:0:1', '2019-05-29 16:16:25');
-INSERT INTO `t_login_log` VALUES ('2', '1', '0:0:0:0:0:0:0:1', '2019-05-31 00:00:00');
-INSERT INTO `t_login_log` VALUES ('3', '1', '0:0:0:0:0:0:0:1', '2019-05-31 00:00:00');
 INSERT INTO `t_login_log` VALUES ('6', '1', '192.168.31.9', '2019-06-11 11:42:01');
 INSERT INTO `t_login_log` VALUES ('7', '1', '192.168.31.9', '2019-06-11 11:47:47');
-INSERT INTO `t_login_log` VALUES ('8', '1', '0:0:0:0:0:0:0:1', '2019-06-17 11:05:29');
-INSERT INTO `t_login_log` VALUES ('9', '1', '0:0:0:0:0:0:0:1', '2019-06-17 11:07:08');
-INSERT INTO `t_login_log` VALUES ('10', '1', '192.168.31.110', '2019-07-31 12:16:06');
-INSERT INTO `t_login_log` VALUES ('11', '1', '192.168.31.110', '2019-07-31 12:17:41');
