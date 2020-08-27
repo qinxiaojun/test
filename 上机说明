@@ -1,7 +1,7 @@
 已经完成用户登录，基于用户登录成功.
 
-1.更新用户最后一次的登录日期、ip、用户积分
-2.新增用户登录日志
+1.更新用户积分            (修改用户表t_user:credits字段)
+2.新增用户登录日志        (新增登录日志表t_login_log记录)
 
 积分更新规则：每天登录仅第一次积分加5(不同用户每天登录只能获取一次积分机会,例如张三今天登录了5次，他也只能获取5积分)
 
@@ -9,8 +9,5 @@
 sampledb
 
 数据库表:
-t_user
-t_login_log
-
-字段说明:
-credits:积分  last_ip:最后一次登录ip last_visit:最后一次登录日期
+t_user (user_name:用户名 password:密码 credits:积分)
+t_login_log (user_id:用户id last_ip:最后一次登录ip last_visit:最后一次登录日期)
